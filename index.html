@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <div class="logo"><span>Portfolio</span></div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-btn">About</a></li>
+                <li><a href="#skills" class="nav-btn">Skills</a></li>
+                <li><a href="#certifications" class="nav-btn">Certifications</a></li>
+                <li><a href="#projects" class="nav-btn">Projects</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+                <li><button class="theme-switcher" id="theme-btn">🌙 Dark Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="name-highlight">MOHAN R</span></h1>
+            <h2>Aspiring Full-Stack Developer & Robotics Enthusiast</h2>
+            <p>Student at Sona College of Technology | Specialized in Java & AR Solutions</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-java"></i> Java</div>
+                <div class="skill-card"><i class="fab fa-html5"></i> HTML5 & CSS3</div>
+                <div class="skill-card"><i class="fas fa-database"></i> Data Structures</div>
+                <div class="skill-card"><i class="fas fa-robot"></i> Robotics & IoT</div>
+                <div class="skill-card"><i class="fab fa-envira"></i> Spring Boot</div>
+                <div class="skill-card"><i class="fas fa-code"></i> Web Development</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3> Java Programmer</h3>
+                        <p class="certification-issuer">infosys springboard</p>
+                        <p class="certification-date">Issued: 2024</p>
+                        <span class="certification-badge">OCJP</span>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>python Developer </h3>
+                        <p class="certification-issuer">infosys springboard</p>
+                        <p class="certification-date">Issued: 2024</p>
+                        <span class="certification-badge">AWS CCP</span>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fab fa-NPTEL"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Robotics Process Automation</h3>
+                        <p class="certification-issuer">UiPath Academy</p>
+                        <p class="certification-date">Issued: 2023</p>
+                        <span class="certification-badge">RPA</span>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Full Stack Web Development</h3>
+                        <p class="certification-issuer">Coursera</p>
+                        <p class="certification-date">Issued: 2023</p>
+                        <span class="certification-badge">Full Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img.jpeg" alt="AR Watch Try-On">
+                    </div>
+                    <div class="project-info">
+                        <h3>AR Watch Try-On</h3>
+                        <p>An augmented reality solution for e-commerce allowing users to virtually try on watches via web browser.</p>
+                        <span class="tag">AR</span> <span class="tag">JavaScript</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/ar-watch-tryon" class="btn-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img1.jpeg.png" alt="Industrial Asset Health Monitor">
+                    </div>
+                    <div class="project-info">
+                        <h3>Real-Time Task Management System</h3>
+                        <p>Title: Digital Task Manager for Frontline Teams
+                            A simple app that replaces paper forms with a digital system. It helps managers assign work to team members and track their progress in real-time.</p>
+                        <span class="tag">Java</span> <span class="tag">IoT</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/task-management-system" class="btn-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image3.png" alt="IoT Industrial Asset Monitor">
+                    </div>
+                    <div class="project-info">
+                        <h3>IoT Industrial Asset Monitor</h3>
+                        <p>A web-based system that monitors machine health in real-time. It simulates sensors (like temperature and vibration) and alerts users if a machine is about to fail.</p>
+                        <span class="tag">Full-Stack</span> <span class="tag">Spring Boot</span>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/iot-asset-monitor" class="btn-link" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form">
+                    <div class="form-control">
+                        <label for="user-name">Full Name</label>
+                        <input type="text" id="user-name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="user-email">Email Address</label>
+                        <input type="email" id="user-email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
